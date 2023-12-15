@@ -6,9 +6,17 @@ img:hover {
     transition: 0.5s;
 }
 
-img:active {
-    scale: 1.7;
-    opacity: 1;
+/* Styles pour agrandir l'image */
+.img-fluid {
+    transition: transform 0.3s ease;
+    position: relative; 
+    z-index: 1; 
+}
+
+/* Style pour l'image agrandie */
+.img-fluid.enlarge {
+    transform: scale(1.5); 
+    z-index: 2; 
 }
 
 h3 {
