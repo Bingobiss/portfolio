@@ -113,24 +113,7 @@
                 <a class="nav-link" href="#"><i class="fa-solid fa-envelope"></i></a>
               </li>
       </nav>
-      <script>
-        // Sélectionnez toutes les images
-        const images = document.querySelectorAll('.img-fluid');
-
-        // Parcourez chaque image et ajoutez un gestionnaire d'événement de clic
-        images.forEach(image => {
-            image.addEventListener('click', () => {
-                // Changez la taille de l'image lorsqu'elle est cliquée
-                if (!image.classList.contains('enlarge')) {
-                    // Ajoutez la classe 'enlarge' pour agrandir l'image
-                    image.classList.add('enlarge');
-                } else {
-                    // Supprimez la classe 'enlarge' pour revenir à la taille d'origine
-                    image.classList.remove('enlarge');
-                }
-            });
-        });
-    </script>
+    <script src="port.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
