@@ -23,7 +23,7 @@ p {
     z-index: 1; /* Définissez un z-index par défaut */
 }
 
-.img-fluid.enlarge {
+.img-fluid:hover {
     transform: scale(1.5); /* Vous pouvez ajuster la valeur pour l'effet d'agrandissement souhaité */
     z-index: 2; /* Placez l'image agrandie au-dessus des autres */
 }
