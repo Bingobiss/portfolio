@@ -1,8 +1,12 @@
+html {
+    margin-bottom: 100px;
+}
+
 img.elbigy:hover {
     opacity: 1;
     transform: rotate3d(1, 1, 2, 3deg);
-    scale: 1.1;
-    transition: 0.5s;
+    scale: 1.05;
+    transition: 1s;
 }
 
 img {
@@ -26,13 +30,13 @@ hr#hrsep2 {
 }
 
 .img-fluid {
-    transition: transform 0.3s ease;
+    transition: transform 1s ease;
     position: relative; /* Ajoutez une position relative pour manipuler z-index */
     z-index: 1; /* Définissez un z-index par défaut */
 }
 
 .img-fluid.elbigy:hover {
-    transform: scale(1.2); /* Vous pouvez ajuster la valeur pour l'effet d'agrandissement souhaité */
+    transform: scale(1.3); /* Vous pouvez ajuster la valeur pour l'effet d'agrandissement souhaité */
     z-index: 2; /* Placez l'image agrandie au-dessus des autres */
 }
 
@@ -54,8 +58,5 @@ hr#hrsep2 {
     transform:translateY(0); transition: all 0.3s ease-in-out;
   }
 
-  .jumbotron {
-    background-color: aquamarine;
-  }
 
 
