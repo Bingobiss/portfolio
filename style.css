@@ -48,7 +48,7 @@ hr#hrsep2 {
 }
 
 .navdown {
-    align-items: center;
+    font-size: 1.5rem;
 }
 
 .scrolled-down{
@@ -57,6 +57,20 @@ hr#hrsep2 {
   .scrolled-up{
     transform:translateY(0); transition: all 0.3s ease-in-out;
   }
+
+  .elbigy.pics100 {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+
+@media (max-width: 576px) {
+    .img-fluid.elbigy {
+        height: 290px;
+        max-width: 75%;
+    }
+}
 
 
 
